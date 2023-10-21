@@ -1,3 +1,33 @@
+/* Common styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .list {
   list-style-type: none;
 }
@@ -7,6 +37,31 @@
 
 button {
   cursor: pointer;
+}
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+}
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+.menu-list {
+  display: flex;
+}
+.menu-link {
+  margin-right: 40px;
+}
+.logotype {
+  margin-right: 76px;
+}
+.address-navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation-list {
+  padding-right: 40px;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -77,11 +132,20 @@ span {
 /* MAin Content */
 .hero-main {
 }
+.hero-head-one {
+  padding-top: 188px;
+  padding-right: 331px;
+  padding-bottom: 292px;
+  padding-left: 331px;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .hero-sect {
   background: var(--NAVY-BLUE, #2e2f42);
 }
-.section-2 {
-}
+
 .section-3 {
   background: var(--CLOUD, #f4f4fd);
 }
@@ -96,6 +160,15 @@ span {
   text-align: center;
   background: var(--NAVY-BLUE, #2e2f42);
 }
+.head-one {
+  padding-top: 188px;
+  padding-right: 331px;
+  padding-bottom: 292px;
+  padding-left: 331px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .order-service-but {
   color: var(--WHITE, #fff);
   background: var(--IRIS, #4d5ae5);
@@ -104,6 +177,14 @@ span {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.button {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  border: 4px;
 }
 .order-service-but:hover,
 .order-service-but:focus {
@@ -112,6 +193,11 @@ span {
 }
 
 .advantages-item-2 {
+}
+/* Section1 */
+.menu-advantages {
+  display: flex;
+  column-gap: 24px;
 }
 .our-advantages {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -122,6 +208,10 @@ span {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+/* our team */
+.our-team-menu {
+  display: flex;
 }
 .our-team-sec {
 }
@@ -204,6 +294,7 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/* footer */
 .footer {
   background-color: #2e2f42;
 }
