@@ -144,6 +144,8 @@ span {
 }
 .hero-sect {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding-top: 180px;
+  padding-bottom: 180px;
 }
 
 .section-3 {
@@ -160,13 +162,11 @@ span {
   text-align: center;
   background: var(--NAVY-BLUE, #2e2f42);
 }
-.head-one {
-  padding-top: 188px;
-  padding-right: 331px;
-  padding-bottom: 292px;
-  padding-left: 331px;
+.main-hero-head {
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .order-service-but {
@@ -181,10 +181,12 @@ span {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .button {
-  display: flex;
+  display: block;
   align-items: center;
   padding: 16px 32px;
   border: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .order-service-but:hover,
 .order-service-but:focus {
