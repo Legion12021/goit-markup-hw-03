@@ -48,10 +48,10 @@ button {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin-right: 0px;
 }
 .menu-list {
   display: flex;
+  padding: 24px 0 24px;
 }
 .menu-list:last-child {
   margin-right: 0;
