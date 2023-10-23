@@ -66,6 +66,11 @@ button {
 .address-navigation {
   display: flex;
   align-items: center;
+  gap: 40px;
+  padding: 24px 0;
+}
+.address-navigation:last-child {
+  margin-right: 0;
 }
 .navigation-list {
   padding-right: 40px;
