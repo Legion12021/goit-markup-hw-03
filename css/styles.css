@@ -145,14 +145,12 @@ span {
 }
 /* Header steles=============================== */
 /* MAin Content */
-.hero-main {
-}
+
 /* hero sect */
 .section-advantages {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 1440px;
   padding-top: 120px;
   padding-bottom: 120px;
   background: #fff;
@@ -240,9 +238,17 @@ span {
 
 /* our team */
 
-.our-team-sec {
+.our-team-menu {
   display: flex;
-  align-items: center;
+  width: calc((100%-3 * 24) / 4);
+  column-gap: 24px;
+}
+.our-team-border {
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  background-color: #ffffff;
 }
 .skills {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -269,10 +275,14 @@ span {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
 }
+
 .our-team-item {
   background-color: #ffffff;
 }
@@ -287,7 +297,10 @@ span {
   line-height: 1.2;
   letter-spacing: 0.4px;
   text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
+
 .position {
   color: var(--SLATE, #434455);
   font-family: Roboto;
@@ -299,6 +312,14 @@ span {
 }
 
 /* portfolio */
+.portfolio-menu {
+  display: flex;
+  margin-top: auto;
+  margin-right: auto;
+  width: calc((100%-4 * 24) / 6);
+  gap: 24px;
+  flex-wrap: wrap;
+}
 
 .portfolio {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -306,9 +327,18 @@ span {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
+}
+
+.portfolio-item {
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+  border-top: none;
 }
 .services {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -317,7 +347,10 @@ span {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
+
 .referral {
   color: var(--SLATE, #434455);
   font-family: Roboto;
@@ -338,6 +371,11 @@ span {
   line-height: 1.5;
   letter-spacing: 0.32px;
   background: var(--NAVY-BLUE, #2e2f42);
+  justify-content: flex-start;
+  padding-top: 140px;
+  padding-bottom: 100px;
+  flex-wrap: wrap;
+  max-width: 264px;
 }
 .span-footer {
   color: #f4f4fd;
