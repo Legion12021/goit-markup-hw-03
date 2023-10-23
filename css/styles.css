@@ -17,11 +17,13 @@ ol {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .container {
   width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .container-header {
   display: flex;
@@ -67,6 +69,19 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 span {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -131,6 +146,16 @@ span {
 /* Header steles=============================== */
 /* MAin Content */
 .hero-main {
+}
+/* hero sect */
+.section-advantages {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: #fff;
 }
 .hero-head-one {
   padding-top: 188px;
@@ -199,6 +224,7 @@ span {
 /* Section1 */
 .menu-advantages {
   display: flex;
+  width: calc((100%-3 * 24px) / 4);
   column-gap: 24px;
 }
 .our-advantages {
@@ -211,11 +237,12 @@ span {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+
 /* our team */
-.our-team-menu {
-  display: flex;
-}
+
 .our-team-sec {
+  display: flex;
+  align-items: center;
 }
 .skills {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -224,6 +251,9 @@ span {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+}
+.skills {
+  padding-bottom: 8px;
 }
 .strategy {
   color: var(--SLATE, #434455);
