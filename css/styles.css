@@ -262,12 +262,14 @@ span {
   justify-content: space-between;
   padding: 0;
   list-style: none;
+  gap: 24px;
 }
 .our-team-menu:last-child {
   margin-right: 0;
 }
 .our-team-menu:first-child {
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .our-team-border {
@@ -276,6 +278,7 @@ span {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   background-color: #ffffff;
+  padding: 32px 0;
 }
 .skills {
   color: var(--NAVY-BLUE, #2e2f42);
