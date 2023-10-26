@@ -54,12 +54,14 @@ button {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  padding: 24px 0;
 }
 .menu-list:last-child {
   margin-right: 0;
 }
 .menu-link {
   margin-right: 40px;
+  padding: 24px 0;
 }
 
 .logotype {
