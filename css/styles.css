@@ -65,13 +65,13 @@ button {
   display: flex;
   align-items: center;
   flex-direction: row;
+  gap: 40px;
 }
+
 .address-navigation:last-child {
   margin-right: 0;
 }
-.navigation-list {
-  margin-right: 40px;
-}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
