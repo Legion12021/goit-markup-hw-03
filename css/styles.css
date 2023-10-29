@@ -58,7 +58,6 @@ button {
   margin-right: 0;
 }
 .menu-link {
-  margin-right: 40px;
   padding: 24px 0;
 }
 
@@ -109,15 +108,15 @@ span {
 }
 
 .logotype {
-  font-family: "Raleway", sans-serif;
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
+  padding-right: 76px;
   text-transform: uppercase;
-  color: var(--IRIS, #4d5ae5);
-  margin-right: 76px;
-  display: menu-list;
+  display: block;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -345,7 +344,6 @@ span {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
 }
 
 /* portfolio */
@@ -414,7 +412,6 @@ span {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 /* footer */
 .footer {
@@ -424,6 +421,13 @@ span {
 .logotype-footer {
   display: inline-block;
   margin-bottom: 16px;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .foter-item {
   color: var(--CLOUD, #f4f4fd);
